@@ -11,7 +11,7 @@ The project includes the following components:
 
 ### Dockerfiles
 
-The Dockerfiles are located in the `DockerFile` directory. 
+The Dockerfiles are located in the `DockerFile` directory.
 
 - `BackEnd`: This Dockerfile builds an image based on `php:7.4-apache` for the PHP application.
 - `Database`: This Dockerfile builds an image based on `mysql:5.7` for the MySQL database. It uses the `--platform=linux/amd64` option because it's designed to be built on a Macbook M1.
@@ -31,10 +31,11 @@ To deploy this project on a Kubernetes cluster, follow these steps:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/yourrepository.git
+git clone https://github.com/Lorran/kubernet-projeto-dio.git
 
 # Navigate to the project directory
-cd yourrepository
+cd kubernet-projeto-dio.git
 
 # Run the script
 ./script.sh
+```
